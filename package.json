@@ -4,7 +4,8 @@
   "description": "tool",
   "main": "./lib",
   "scripts": {
-    "dev": "rollup -c -w"
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
   },
   "author": "",
   "license": "ISC",
