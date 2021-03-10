@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>rollup 打包测试</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <script src="./index.js"></script>
+        <script>
+            console.log(macro_tool);
+            /* var obj = { a:1, b:2, c:3 }, arr = [1, 2, {a: 1}, {b: 2}];
+            macro_tool.data.deepAssign(obj);  ====>     { a:1, b:2, c:3 }
+            macro_tool.data.deepAssign(arr);  ====>     [1, 2, {a: 1}, {b: 2}]
+            obj.a = 4;                        ====>     { a:4, b:2, c:3 }
+            arr[0] = 3;                       ====>     [3, 2, {a: 1}, {b: 2}] */
+
+            /* var arr = [], obj = {}, str = "", boo = true;
+            console.log(macro_tool.type.isEmpty(arr));
+            console.log(macro_tool.type.isEmpty(obj));
+            console.log(macro_tool.type.isEmpty(str));
+            console.log(macro_tool.type.isEmpty(str, true));
+            console.log(macro_tool.type.isEmpty(boo)); */
+
+            /* macro_tool.format.time(new Date)             ====>   2021/03/10 11:20:20
+            macro_tool.format.time(new Date, false, '-')    ====>   2021-03-10 11:20:20
+            macro_tool.format.time(new Date, true)          ====>   { year: 2021, month: 3, day: 10, hour: 11, minute: 20, second: 20 } */
+
+            /* macro_tool.validator.email('macro224@163.com')   ====>   true
+            macro_tool.validator.email('macro224')              ====>   false */
+        </script>
+    </body>
+</html>
