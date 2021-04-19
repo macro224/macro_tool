@@ -1,13 +1,7 @@
-import type from './type'
-import data from './data'
-import format from './format'
-import validator from './validator'
+import jump from './jump'
 
 const modeles = { 
-  type,
-  data,
-  format,
-  validator
+  jump
 }
 
 export default modeles
