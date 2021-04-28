@@ -1,7 +1,4 @@
 import macro_utils from 'macro_utils'
-function isExistence (url, param) {
-    return url.indexOf(param) > -1
-}
 
 /**
  * 路由跳转

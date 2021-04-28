@@ -4,12 +4,14 @@ import replace from '@rollup/plugin-replace'
 import commonjs from '@rollup/plugin-commonjs'
 import babel from 'rollup-plugin-babel'
 import json from '@rollup/plugin-json'
+
+const { files: input } = require('./build/inputs')
+
 export default {
-  input: 'src/index.js',
+  input: input,
   output: {
-    format: 'umd',
-    name: 'macro_tool',
-    file: 'lib/index.js'
+    dir: 'lib',
+    format: 'amd'
   },
   plugins: [
     alias ({
